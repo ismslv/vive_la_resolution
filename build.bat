@@ -6,5 +6,5 @@ pip install -r requirements.txt
 @RD /S /Q "dist"
 pyinstaller --noconfirm --onefile --windowed --icon "icon.ico" --name "vive la resolution" --add-binary "ChangeScreenResolution.exe;."  "vivelaresolution.py"
 @RD /S /Q "build"
-REN dist build
+REN dist output
 pause
