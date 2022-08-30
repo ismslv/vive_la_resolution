@@ -1,6 +1,12 @@
 # vive la resolution
 <img width="70px" src="icon.ico"/>
-Quick display resolution detect and switch
+Quickly and silently switches monitor between two or more resolutions.
+
+## why
+
+as of Aug 2022 [parsec.app](https://parsec.app) does not understand resolutions more than 4k. my monitor is 4k+.
+
+so in order to stream it this **vive la resolution** quickly switches it to the resolution appropriate for streaming and back to native.
 
 ## to use
 
